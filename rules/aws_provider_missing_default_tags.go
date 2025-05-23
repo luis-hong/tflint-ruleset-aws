@@ -45,7 +45,7 @@ func (r *AwsProviderMissingDefaultTagsRule) Enabled() bool {
 
 // Severity returns the rule severity
 func (r *AwsProviderMissingDefaultTagsRule) Severity() tflint.Severity {
-	return tflint.NOTICE
+	return tflint.ERROR
 }
 
 // Link returns the rule reference link
